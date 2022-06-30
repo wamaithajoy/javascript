@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      
+function multiple_integers(){
+        
+        for(i=1;i<=100;i++){ 
+        if(i%3==0 && i%5==0){
+            console.log(i,"Fizzbuzz")
+        }
+        else if(i%3==0){
+            console.log(i,"Fizz")
+        }
+        else if(i%5==0){
+            console.log(i,"Buzz")
+        }
+        else {
+            console.log(i)
+        }
+    }
+    }
+multiple_integers()
+
+    function addition(){
+        var sum=0
+        for(x=1;x<1000;x++){
+         if (x%3==0 && x%5==0){
+             sum+=x
+             console.log(sum)
+         }
+       
+
+        }
+    }
+addition()
+
+    function numbers(){
+        for(y=0;y<=20;y++){
+            if(y%2==0){
+                console.log(y,"Is even")
+            }
+            else {
+                console.log(y,"Is odd")
+            }
+        }
+    }
+numbers()  
+        function largestnumber(){
+            var num = [-2,4,-5,6,0];
+            largest=0
+            for(var i=0; i<num.length;i++){
+                if(num[i]>largest){
+                    largest=num[i];
+                }
+            }
+            console.log(largest)
+        }
+largestnumber()
+
+  
+
+
+    function max_number(){
+        a=10
+        b=40
+        if(a>b){
+            console.log(a)
+        }
+        else{
+            console.log(b)
+        }
+    }
+max_number()  
+
+    function leap_year(){
+        for(year=2000;year<2022;year++){
+            if(year%4==0 && year%100!=0 || year%400==0){
+                console.log(year,"Is a leap year ")  
+            }
+        }
+    }
+
+leap_year()  
+
+
+    </script>
+</body>
+</html>
